@@ -1,0 +1,22 @@
+---
+index: &1
+  :path: !ruby/object:Pathname
+    path: index.html
+  :adr: !ruby/object:Pathname
+    path: "/Users/admin/git/rubyfrontierdoc/rubyfrontierdoc/index.txt"
+  :linetext: Startseite
+startseite: *1
+second: &2
+  :path: !ruby/object:Pathname
+    path: second.html
+  :adr: !ruby/object:Pathname
+    path: "/Users/admin/git/rubyfrontierdoc/rubyfrontierdoc/second.txt"
+  :linetext: Zweite Seite
+zweite seite: *2
+third: &3
+  :path: !ruby/object:Pathname
+    path: third.html
+  :adr: !ruby/object:Pathname
+    path: "/Users/admin/git/rubyfrontierdoc/rubyfrontierdoc/third.txt"
+  :linetext: Dritte Seite
+dritte seite: *3

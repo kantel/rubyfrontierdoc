@@ -1,0 +1,6 @@
+#title "Startseite"
+#nextp "second"
+
+# <%= title %>
+
+RubyFrontierDoc

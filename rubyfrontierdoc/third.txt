@@ -1,0 +1,8 @@
+#title "Dritte Seite"
+#prevp "second"
+
+# <%= title %>
+
+RubyFrontierDoc, 3rd Page[^1]
+
+[^1]: Mit einer Fußnote

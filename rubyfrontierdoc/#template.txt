@@ -1,0 +1,40 @@
+<%= pageheader() %>
+<div class="wrapper">
+	<div class="header">
+		<div class="mylogo">
+			<a href="index.html"><%= imageref("rubyfrontierlogo", {:border => "0", :alt => "RubyFrontier Logo", :width => "59", :height => "64"}) %></a>
+		</div>
+		<div class="mytitle">
+			<h1><%= sitetitle %></h1>
+		</div>
+		<br clear="all" />
+	</div>
+  <div align="right"><%= nextprevlinks() %></div>
+	<div class="content">
+		<div class="maincontent">
+			<!-- begin content -->
+			<p id="bodytext"></p>
+			<!-- end content -->
+		</div>
+		<div class="navbar">
+			<h4>Navigation</h4>
+			<%= navigation %>
+		</div>
+	</div>
+  <div align="right"><%= nextprevlinks() %></div>
+  
+	<div class="footer">
+		<p>(<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">cc</a>) <%= yearnow() %> -- Some Rights Reserverd -- Letze Änderung: <%= clocknow() %></p>
+		<p>
+			<!-- RubyFrontier -->
+			<a href="http://www.apeth.com/RubyFrontierDocs/default.html"><%= imageref("rubyfrontierbadge", {:width => "80", :height => "15", :alt => "RubyFrontier Badge", :title => "Made with RubyFrontier", :border => "0"}) %></a>
+			<!-- Ende RubyFrontier -->
+			&nbsp;
+			<!-- CC-Button -->
+			<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/"><%= imageref("ccbadge", {:width => "80", :height => "15", :alt => "CC Logo", :title => "CC BY NC SA", :border => "0"}) %></a>
+			<!-- Ende CC-Button -->
+			&nbsp;
+		</p>
+	</div>
+</div>
+<%= pagefooter() %>

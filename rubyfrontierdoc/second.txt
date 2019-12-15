@@ -1,0 +1,7 @@
+#title "Zweite Seite"
+#prevp "index"
+#nextp "third"
+
+# <%= title %>
+
+RubyFrontierDoc, 2nd Page

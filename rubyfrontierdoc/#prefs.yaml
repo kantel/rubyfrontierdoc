@@ -1,0 +1,9 @@
+--- 
+:bgcolor: ffffff
+:sitetitle: "RubyFrontierDocs"
+:linkstylesheets: [default]
+:kramdown: true
+:navigation: "<li><a href='index.html'>Startseite</a></li>
+          <li><a href='second.html'>Zweite Seite</a></li>
+          <li><a href='third.html'>Dritte Seite</a></li>"
+
