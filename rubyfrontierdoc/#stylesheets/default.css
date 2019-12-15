@@ -28,14 +28,14 @@ code, pre {
 }
 
 .content .maincontent {
-	width: 650px;
+	max-width: 650px;
 	padding-right: 20px;
 	float: right;
 	display: inline;
 }
 
 .content .navbar {
-	width: 230px;
+	max-width: 230px;
 	float:left;
 	display: inline;
 }
