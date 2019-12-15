@@ -1,4 +1,4 @@
-# RubyFrontierDoc
+# RubyFrontierDocs
 
 ![Logo](rubyfrontierlogo.png)
 
