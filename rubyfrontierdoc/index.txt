@@ -3,4 +3,4 @@
 
 # <%= title %>
 
-RubyFrontierDoc
+RubyFrontierDocs ist mein Versuch, so etwas wie MkDocs in RubyFrontier zu implementieren. Ein Werkzeug, um schnell und einfach Bücher, Dokumentationen, Tutorien etc. als statische Seiten ins Netz zu stellen.

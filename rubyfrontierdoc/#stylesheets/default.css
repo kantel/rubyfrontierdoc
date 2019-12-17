@@ -1,65 +1,129 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{ 
+    display:block;
+}
+
 body {
-	text-align: center; /* IE-Fix */
 	font-family: 'Trebuchet MS', Verdana, 'Lucida Grande', Arial, Helvetica, sans-serif;
-	/* font-size: 100.01%/1.0; */
 	font-size: 100%;
-	color: #111111;
+  color: #111111;
+  letter-spacing: normal;
 }
 
-pre {
-	border: 1px dashed #cccccc;
-	padding: 20px 10px;
+h1, h2, h3 {
+  font-family: "American Typewriter", "Courier New", monospace;
+  letter-spacing: 0.05em;
+  color: #2DBE60;
+  font-weight: 400;
+  line-height: 1.2em; /* 48px / 40px */
+  margin-bottom: .4em;/* 16px / 40px */
+  margin-top: .4em; /* 16px / 40px */
+  
+  line-height: 1.2em;
+  margin-bottom: 0.5em;
+  margin-top: 0.4em;
 }
 
-code, pre {
-	background-color: #f9f9f9;
-	font-family: "Lucida Sans Typewriter", "Monaco", "Courier New", Courier, monospace;
-	font-size: 90%;
+h1 {
+  font-size: 1.8em;
 }
 
-.wrapper {
-	max-width: 920px;
-	margin: 0 auto;
-	text-align: left;
+h2 {
+  font-size: 1.5em;
 }
 
-.content {
-	overflow: hidden;
+h3 {
+  font-size: 1.1em;
+  line-height: 1.2em;
 }
 
-.content .maincontent {
-	max-width: 650px;
-	padding-right: 20px;
-	float: right;
-	display: inline;
+header {
+  /* background: #e3e0d9; */
+  border-bottom: 1px solid;
 }
 
-.content .navbar {
-	max-width: 230px;
-	float:left;
-	display: inline;
+header #logo {
+  float:left;
+  margin-right: 10px;
 }
 
-.header {
-	border-bottom: 1px solid;
+header #sitetitle {
+  float: left;
 }
 
-.header .mylogo {
-	float: left;
-	margin-right: 10px;
+header h1 {
+	font-family: 'Trebuchet MS', Verdana, 'Lucida Grande', Arial, Helvetica, sans-serif;
+  color: #111111;
+  font-size: 2.2em;
+  font-weight: normal;  
 }
 
-.header .mytitle {
-	float: left;
+aside {
+  float: right;
+  width: 22%;
 }
 
-.footer {
-	font-size: 70%;
-	border-top: 1px solid;
+aside section {
+  overflow: hidden;
+}
+
+.main {
+  float: left;
+  width: 75%;
+}
+
+#container {
+  margin: auto auto 1.5em auto;
+  overflow: hidden;
+  width: 95%;
+  padding: 1.055%;
+}
+
+.nextprev {
+  margin-top: 2em;
 }
 
 .footnotes {
   font-size: 90%;
   border-top: 1px solid;
-  margin-top: 20px;
+  margin-top: 1.5em;
 }
+
+.footnotes ol {
+  margin-top: 0.5em;
+  margin-left: 20px;
+}
+
+footer {
+	font-size: 70%;
+	border-top: 1px solid;
+  margin-top: 2em;
+  float: left;
+  width: 100%;
+}
+
+footer p {
+  margin-top: 0.4em;
+}
+

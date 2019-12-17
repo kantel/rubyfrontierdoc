@@ -3,6 +3,6 @@
 
 # <%= title %>
 
-RubyFrontierDoc, 3rd Page[^1]
+RubyFrontierDoc, 3rd Page [^1]
 
 [^1]: Mit einer Fußnote

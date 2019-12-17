@@ -13,7 +13,7 @@ def finalFilter(adrPageTable)
   # for example, I like to remove any self-links that may have been accidentally generated
   # remove self-links
   # Füge den links auf die eigene Seite die Klasse "active" hinzu:
-  adrPageTable[:renderedtext] = adrPageTable[:renderedtext].gsub("<li><a href=\"\">", "<li class=\"active\"><a href=\"\">")
+  adrPageTable[:renderedtext] = adrPageTable[:renderedtext].gsub("<li><a href='>", "<li class='active'><a href=\'>")
   # Amazonlinks mit einer eigenen Klasse versehen (1):
   adrPageTable[:renderedtext] = adrPageTable[:renderedtext].gsub("<a href=\"http://www.amazon", "<a class=\"amazon\" title=\"Link zu Amazon\" href=\"http://www.amazon")
   # Amazonlinks mit einer eigenen Klasse versehen (2):
