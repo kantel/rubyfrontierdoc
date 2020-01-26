@@ -82,6 +82,8 @@ header h1 {
 aside {
   float: right;
   width: 22%;
+  /* display: table-cell;
+  width: 200px; */
 }
 
 aside section {
@@ -91,6 +93,8 @@ aside section {
 .main {
   float: left;
   width: 75%;
+  /* display: table-cell;
+  padding-right: 2.532%; */
 }
 
 #container {
