@@ -2,6 +2,6 @@
 #prevp "index"
 #nextp "third"
 
-# <%= title %>
+# Das ist die zweite Seite
 
-RubyFrontierDoc, 2nd Page
+RubyFrontierDoc, zweite Seite mit einem langen, langen und noch viel längeren Text. Ich weiß nicht, warum dieser umgebrochen wird. 

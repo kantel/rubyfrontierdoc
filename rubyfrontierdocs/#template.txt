@@ -10,10 +10,9 @@
 		<br clear="all" />
   </header>
   <article class="main">
-    <p id="bodytext"></p>
-    <div class="nextprev">
-      <%= nextprevlinks() %>
-  </div>
+    <section>
+      <p id="bodytext"></p>
+    </section>
   </article>
   <aside>
     <section class="navbar">
@@ -21,6 +20,9 @@
       <ul>
         <%= navigation %>
       </ul>
+    <div class="nextprev">
+      <%= nextprevlinks() %>
+    </div>
   </aside>
   <footer>
 		<p>(<a href="http://creativecommons.org/licenses/by-nc-sa/3.0/de/">cc</a>) <%= yearnow() %> – Some Rights Reserverd – Letze Änderung: <%= clocknow() %></p>

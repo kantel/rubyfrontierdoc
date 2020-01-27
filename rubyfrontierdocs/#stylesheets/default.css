@@ -20,7 +20,7 @@ time, mark, audio, video {
   box-sizing: border-box;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section{ 
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
     display:block;
 }
 
@@ -39,7 +39,6 @@ h1, h2, h3 {
   line-height: 1.2em; /* 48px / 40px */
   margin-bottom: .4em;/* 16px / 40px */
   margin-top: .4em; /* 16px / 40px */
-  
   line-height: 1.2em;
   margin-bottom: 0.5em;
   margin-top: 0.4em;
@@ -59,7 +58,6 @@ h3 {
 }
 
 header {
-  /* background: #e3e0d9; */
   border-bottom: 1px solid;
 }
 
@@ -79,22 +77,16 @@ header h1 {
   font-weight: normal;  
 }
 
-aside {
-  float: right;
-  width: 22%;
-  /* display: table-cell;
-  width: 200px; */
-}
-
 aside section {
   overflow: hidden;
 }
 
-.main {
-  float: left;
-  width: 75%;
-  /* display: table-cell;
-  padding-right: 2.532%; */
+aside img {
+  max-width: 100%;
+}
+
+.main img {
+  max-width: 100%;
 }
 
 #container {
@@ -102,6 +94,7 @@ aside section {
   overflow: hidden;
   width: 95%;
   padding: 1.055%;
+  max-width: 940px;
 }
 
 .nextprev {
@@ -131,3 +124,34 @@ footer p {
   margin-top: 0.4em;
 }
 
+/* 860px */
+@media all and (min-width: 53.75em) {
+	aside {
+		display: block;
+		margin-bottom: 1em;
+		padding: 0 1%;
+		width: auto;
+	}
+	aside section {
+        float: left;
+        margin-right: 2%;
+        margin-left: -2%;
+        width: 48%;
+	}
+}
+
+/* 940px */
+@media all and (min-width: 58.75em) {
+  	.main {
+  		display: table-cell;
+  		padding-right: 2.532%; /* 24px / 948px */
+  	}
+  	aside {
+      display: table-cell;
+  		width: 200px;
+  	}
+  	aside section{
+  		float: none;
+  		width: 100%;
+  	}
+}
